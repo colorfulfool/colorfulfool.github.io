@@ -45,6 +45,16 @@ $accent-two: #09BC8A;
   &__small {
     display: block;
   }
+  
+  &__container {
+    position: relative;
+  }
+  
+  &__explan {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 .hire {

@@ -34,6 +34,12 @@ body {
   font-size: larger; }
 .option__small {
   display: block; }
+.option__container {
+  position: relative; }
+.option__explan {
+  position: absolute;
+  width: 100%;
+  margin-top: 10px; }
 
 .hire__container {
   display: flex;
