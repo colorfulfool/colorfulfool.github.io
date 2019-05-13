@@ -1,0 +1,8 @@
+@mixin pressable($color) {
+  background-color: $color;
+  box-shadow: 0 5px 0px darken($color, 10);
+  &:active { 
+    box-shadow: 0 1px 0px darken($color, 10);
+    position: relative; top: 4px;
+  }
+}
