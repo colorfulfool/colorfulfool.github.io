@@ -1,8 +1,16 @@
 @mixin pressable($color) {
+  $shade: darken($color, 10);
+  
   background-color: $color;
-  box-shadow: 0 5px 0px darken($color, 10);
+  box-shadow: 0 5px 0px $shade;
+  
   &:active { 
-    box-shadow: 0 1px 0px darken($color, 10);
+    box-shadow: 0 1px 0px $shade;
     position: relative; top: 4px;
+  }
+  
+  &:hover {
+    background: radial-gradient(lighten($color, 10), $color);
+    box-shadow: 0 5px 0px lighten($shade, 5);
   }
 }
