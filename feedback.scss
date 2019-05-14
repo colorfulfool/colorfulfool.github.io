@@ -1,0 +1,16 @@
+.feedback {
+  &__item {
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.quote {
+  &__container {
+    max-width: 50ch;
+    margin: auto;
+    
+    text-align: left;
+    hanging-punctuation: first;
+  }
+}

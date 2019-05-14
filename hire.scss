@@ -3,6 +3,7 @@ $accent-two: #09BC8A;
 
 @import "fonts";
 @import "pressable";
+@import "feedback";
 
 .introduction {
   &__huge {
@@ -46,13 +47,7 @@ $accent-two: #09BC8A;
     display: block;
   }
   
-  &__container {
-    position: relative;
-  }
-  
   &__explan {
-    position: absolute;
-    width: 100%;
     margin-top: 10px;
   }
 }
@@ -62,9 +57,12 @@ $accent-two: #09BC8A;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   &__or {
     margin: 10px;
+    position: relative;
+    bottom: 14px;
   }
 }

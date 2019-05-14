@@ -3,6 +3,16 @@ body {
   font-family: "Work Sans";
   letter-spacing: 1px; }
 
+.feedback__item {
+  line-height: 20px;
+  padding-bottom: 20px; }
+
+.quote__container {
+  max-width: 50ch;
+  margin: auto;
+  text-align: left;
+  hanging-punctuation: first; }
+
 .introduction__huge {
   font-size: 2em; }
 
@@ -34,18 +44,17 @@ body {
   font-size: larger; }
 .option__small {
   display: block; }
-.option__container {
-  position: relative; }
 .option__explan {
-  position: absolute;
-  width: 100%;
   margin-top: 10px; }
 
 .hire__container {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 .hire__or {
-  margin: 10px; }
+  margin: 10px;
+  position: relative;
+  bottom: 14px; }
 
 /*# sourceMappingURL=hire.css.map */
