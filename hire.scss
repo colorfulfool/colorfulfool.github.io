@@ -4,8 +4,13 @@ $accent-two: #09BC8A;
 @import "fonts";
 @import "pressable";
 @import "feedback";
+@import "clear";
 
 .introduction {
+  &__container {
+    margin-top: 10px;
+  }
+  
   &__huge {
     font-size: 2em;
   }
@@ -21,11 +26,8 @@ $accent-two: #09BC8A;
     
     padding: 10px;
     
-//    border: 1px solid gray;
     border-radius: 5px;
-    
     text-decoration: none;
-    
     color: white;
     
     width: 25ch;
@@ -49,6 +51,7 @@ $accent-two: #09BC8A;
   
   &__explan {
     margin-top: 10px;
+    line-height: 20px;
   }
 }
 

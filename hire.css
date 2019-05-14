@@ -13,6 +13,12 @@ body {
   text-align: left;
   hanging-punctuation: first; }
 
+body {
+  margin: 0;
+  padding: 0; }
+
+.introduction__container {
+  margin-top: 10px; }
 .introduction__huge {
   font-size: 2em; }
 
@@ -45,7 +51,8 @@ body {
 .option__small {
   display: block; }
 .option__explan {
-  margin-top: 10px; }
+  margin-top: 10px;
+  line-height: 20px; }
 
 .hire__container {
   display: flex;
