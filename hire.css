@@ -66,11 +66,18 @@ body {
 .hire__container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap; }
+  justify-content: center; }
+  @media (max-width: 589px) {
+    .hire__container {
+      flex-direction: column; } }
+  @media (min-width: 590px) {
+    .hire__container {
+      flex-direction: row; } }
 .hire__or {
-  margin: 10px;
-  position: relative;
-  bottom: 14px; }
+  margin: 10px; }
+  @media (min-width: 590px) {
+    .hire__or {
+      position: relative;
+      bottom: 14px; } }
 
 /*# sourceMappingURL=hire.css.map */

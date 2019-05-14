@@ -5,6 +5,7 @@ $accent-two: #09BC8A;
 @import "pressable";
 @import "feedback";
 @import "clear";
+@import "mobility";
 
 .introduction {
   &__container {
@@ -65,12 +66,22 @@ $accent-two: #09BC8A;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
+    @include narrow {
+      flex-direction: column;
+    }
+    
+    @include wide {
+      flex-direction: row;
+    }
   }
   
   &__or {
     margin: 10px;
-    position: relative;
-    bottom: 14px;
+    
+    @include wide {
+      position: relative;
+      bottom: 14px;
+    }
   }
 }
