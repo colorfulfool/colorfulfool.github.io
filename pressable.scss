@@ -9,8 +9,8 @@
     position: relative; top: 4px;
   }
   
-  &:hover {
-    background: radial-gradient(lighten($color, 10), $color);
-    box-shadow: 0 5px 0px lighten($shade, 5);
-  }
+//  &:hover {
+//    background: radial-gradient(lighten($color, 10), $color);
+//    box-shadow: 0 5px 0px lighten($shade, 5);
+//  }
 }
