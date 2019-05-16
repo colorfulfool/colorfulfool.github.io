@@ -1,0 +1,5 @@
+$base-height: 10px;
+
+@function vertical($n) {
+  @return $base-height * $n;
+}

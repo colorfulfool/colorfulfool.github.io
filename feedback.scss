@@ -1,7 +1,9 @@
+@import "vertical";
+
 .feedback {
   &__item {
-    line-height: 20px;
-    padding-bottom: 20px;
+    line-height: vertical(2);
+    padding-bottom: vertical(2);
   }
 }
 
