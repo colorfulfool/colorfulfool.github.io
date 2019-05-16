@@ -1,6 +1,11 @@
 @import "vertical";
+@import "section";
 
 .feedback {
+  &__container {
+    @include section;
+  }
+  
   &__item {
     line-height: vertical(2);
     padding-bottom: vertical(2);

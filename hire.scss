@@ -7,6 +7,7 @@ $accent-two: #09BC8A;
 @import "clear";
 @import "mobility";
 @import "vertical";
+@import "section";
 
 .introduction {
   &__container {
@@ -21,10 +22,6 @@ $accent-two: #09BC8A;
   &__small {
     line-height: vertical(2);
   }
-}
-
-.section {
-  margin-bottom: vertical(4);
 }
 
 .option {
@@ -75,6 +72,8 @@ $accent-two: #09BC8A;
     @include wide {
       flex-direction: row;
     }
+    
+    @include section;
   }
   
   &__or {
