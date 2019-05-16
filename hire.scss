@@ -11,7 +11,8 @@ $accent-two: #09BC8A;
 
 .introduction {
   &__container {
-    margin-top: vertical(1);
+    padding: vertical(1) 0;
+    margin-bottom: vertical(1);
   }
   
   &__huge {
