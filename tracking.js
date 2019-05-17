@@ -1,4 +1,7 @@
 document.addEventListener("click", () => {
   if (event.target.matches(".hire__option [href]"))
-    ga("send", "event", "Hire", "click", event.target.textContent)
+    gtag("event", "click", {
+      "event_category" : "Hire",
+      "event_label" : event.target.textContent
+    })
 })
