@@ -6,8 +6,9 @@ body {
 .feedback__container {
   padding: 20px 0; }
 .feedback__item {
-  line-height: 20px;
-  padding-bottom: 20px; }
+  line-height: 20px; }
+  .feedback__item:not(:last-of-type) {
+    padding-bottom: 20px; }
 
 .quote__container {
   margin: auto;
@@ -79,5 +80,15 @@ body {
     .hire__or {
       position: relative;
       bottom: 14px; } }
+
+.ask {
+  padding: 20px 0; }
+  .ask__button {
+    text-decoration: none;
+    line-height: 20px;
+    color: #9E9AA7;
+    border-bottom: 1px solid #9E9AA7; }
+    .ask__button:hover {
+      border-color: transparent; }
 
 /*# sourceMappingURL=hire.css.map */

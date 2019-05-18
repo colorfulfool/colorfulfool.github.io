@@ -86,3 +86,18 @@ $accent-two: #09BC8A;
     }
   }
 }
+
+.ask {
+  @include section;
+  
+  $muted: #9E9AA7;
+  
+  &__button {
+    text-decoration: none;
+    line-height: vertical(2);
+    
+    color: $muted;
+    border-bottom: 1px solid $muted;
+    &:hover { border-color: transparent; }
+  }
+}
