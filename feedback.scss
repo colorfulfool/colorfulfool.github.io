@@ -1,3 +1,4 @@
+@import "mobility";
 @import "vertical";
 @import "section";
 
@@ -14,7 +15,12 @@
 
 .quote {
   &__container {
-    max-width: 50ch;
+    @include wide {
+      max-width: 50ch;
+    }
+    @include narrow {
+      max-width: 90%;
+    }
     margin: auto;
     
     text-align: left;

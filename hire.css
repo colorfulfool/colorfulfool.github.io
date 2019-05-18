@@ -10,10 +10,15 @@ body {
   padding-bottom: 20px; }
 
 .quote__container {
-  max-width: 50ch;
   margin: auto;
   text-align: left;
   hanging-punctuation: first; }
+  @media (min-width: 590px) {
+    .quote__container {
+      max-width: 50ch; } }
+  @media (max-width: 589px) {
+    .quote__container {
+      max-width: 90%; } }
 
 body {
   margin: 0;
