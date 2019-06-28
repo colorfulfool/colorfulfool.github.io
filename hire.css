@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
 body {
   font-family: "Work Sans";
   letter-spacing: 1px; }
@@ -8,7 +8,7 @@ body {
 .feedback__item {
   line-height: 20px; }
   .feedback__item:not(:last-of-type) {
-    padding-bottom: 20px; }
+    margin-bottom: 20px; }
 
 .quote__container {
   margin: auto;
@@ -20,6 +20,9 @@ body {
   @media (max-width: 589px) {
     .quote__container {
       max-width: 90%; } }
+.quote__title {
+  font-weight: 600;
+  margin-bottom: 10px; }
 
 body {
   margin: 0;
