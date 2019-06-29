@@ -23,6 +23,8 @@ body {
 .quote__title {
   font-weight: 600;
   margin-bottom: 10px; }
+.quote__speaker {
+  color: #9E9AA7; }
 
 body {
   margin: 0;

@@ -1,5 +1,6 @@
 $accent: #8AF3FF;
 $accent-two: #09BC8A;
+$muted: #9E9AA7;
 
 @import "fonts";
 @import "pressable";
@@ -89,8 +90,6 @@ $accent-two: #09BC8A;
 
 .ask {
   @include section;
-  
-  $muted: #9E9AA7;
   
   &__button {
     text-decoration: none;
